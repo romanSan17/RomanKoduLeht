@@ -62,6 +62,33 @@ main {
     padding: 20px;
 }
 
+section {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+    padding: 20px;
+    border: 7pt solid #7b00ff;
+    background-color: #52c0c2;
+    text-align: center;
+}
+
+section h2 {
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#images img {
+    width: 100px;
+    height: auto;
+}
+
 
 
 
